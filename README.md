@@ -144,5 +144,5 @@ backend web_servers    # секция бэкенд
 	server s3 127.0.0.1:8989 weight 4 check
 
 #### Перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него:
-<img width="319" alt="Задание 2 1" src="https://github.com/user-attachments/assets/6641cff2-5b37-4998-91b9-9188be8ba352" />
-<img width="664" alt="Задание 2 2" src="https://github.com/user-attachments/assets/deb7cff5-ba15-46c6-bf0c-a88993b604ab" />
+(https://github.com/EgorGEgor/HW10.2/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202.1.png)
+https://github.com/EgorGEgor/HW10.2/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202.2.png
