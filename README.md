@@ -74,12 +74,7 @@ listen web_tcp
 ```
 #### Перенаправление запросов на разные серверы при обращении к HAProxy:
 <img width="189" alt="Задание 1 1" src="https://github.com/user-attachments/assets/b163556a-5014-41c2-9e37-3092b20aee67" />
-
-
-
 <img width="664" alt="Задание 1 2" src="https://github.com/user-attachments/assets/e620b503-658b-468c-967c-8e6a3493bd8e" />
-
-
 
 ### Задание 2
 - Запустите три simple python сервера на своей виртуальной машине на разных портах
@@ -149,7 +144,10 @@ backend web_servers    # секция бэкенд
 	server s3 127.0.0.1:8989 weight 4 check
 
 #### Перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него:
-![png](https://github.com/EgorGEgor/HW10.2/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202.1.png)
+<img width="319" alt="Задание 2 1" src="https://github.com/user-attachments/assets/6641cff2-5b37-4998-91b9-9188be8ba352" />
+<img width="664" alt="Задание 2 2" src="https://github.com/user-attachments/assets/deb7cff5-ba15-46c6-bf0c-a88993b604ab" />
+
+
 
 
 
