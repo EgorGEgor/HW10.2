@@ -142,7 +142,9 @@ backend web_servers    # секция бэкенд
         server s1 127.0.0.1:8888 weight 2 check
         server s2 127.0.0.1:9999 weight 3 check
 	server s3 127.0.0.1:8989 weight 4 check
-
+```
 #### Перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него:
-[скрин](https://github.com/EgorGEgor/HW10.2/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202.1.png)
-[скрин](https://github.com/EgorGEgor/HW10.2/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202.2.png)
+<img width="319" alt="Задание 2 1" src="https://github.com/user-attachments/assets/016ec88a-08fe-4e06-a7a8-899e235bc99b" />
+<img width="664" alt="Задание 2 2" src="https://github.com/user-attachments/assets/69911118-98b0-4cf0-989b-129e80af73bd" />
+
+
