@@ -88,8 +88,7 @@ listen web_tcp
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
 
 ### *Решение:*
-#### Конфигурационный файл haproxy: [haproxy-hw-2.cfg] ()
-
+#### Конфигурационный файл haproxy: [haproxy-hw-2.cfg] (https://github.com/EgorGEgor/HW10.2/blob/main/haproxy-hw-2.cfg)
 ```bash
 global
 	log /dev/log	local0
@@ -149,3 +148,11 @@ backend web_servers    # секция бэкенд
         server s2 127.0.0.1:9999 weight 3 check
 	server s3 127.0.0.1:8989 weight 4 check
 #### Перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него:
+<img width="319" alt="Задание 2 1" src="https://github.com/user-attachments/assets/521eb08f-bff1-4b2e-8cf5-a943ffdb0430" />
+<img width="664" alt="Задание 2 2" src="https://github.com/user-attachments/assets/acfc44a0-d49f-4594-abeb-ba2888a09889" />
+
+
+
+
+
+
